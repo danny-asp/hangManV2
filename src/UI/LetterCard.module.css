@@ -1,0 +1,32 @@
+.wrapper {
+  width: 2.5rem;
+  height: 3rem;
+  border: 3px solid black;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem;
+}
+.wrapper:disabled {
+  width: 2.5rem;
+  height: 3rem;
+  border: 3px solid black;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  margin: 0.3rem;
+}
+.wrapper:hover:disabled {
+  background-color: grey;
+}
+.wrapper:hover {
+  background-color: #90c8ac;
+}
+.letter {
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
